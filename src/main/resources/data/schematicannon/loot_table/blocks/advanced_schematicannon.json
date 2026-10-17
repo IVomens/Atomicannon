@@ -1,0 +1,1 @@
+{ "neoforge:conditions": [ { "type": "neoforge:mod_loaded", "modid": "hbm" } ], "type": "minecraft:block", "pools": [ { "conditions": [ { "condition": "minecraft:survives_explosion" } ], "entries": [ { "type": "minecraft:item", "name": "schematicannon:advanced_schematicannon" } ], "rolls": 1.0 } ], "random_sequence": "schematicannon:blocks/advanced_schematicannon" }

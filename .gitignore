@@ -1,0 +1,21 @@
+# Gradle / build output
+.gradle/
+build/
+out/
+
+# Dev runs (worlds, logs, configs, screenshots)
+run/
+
+# Third-party jars are not redistributed; see libs/README.md
+libs/*.jar
+
+# IDEs and OS
+.idea/
+*.iml
+.vscode/
+.classpath
+.project
+.settings/
+bin/
+.DS_Store
+Thumbs.db

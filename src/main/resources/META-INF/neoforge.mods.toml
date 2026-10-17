@@ -1,0 +1,41 @@
+modLoader = "javafml"
+loaderVersion = "[1,)"
+license = "MIT"
+
+[[mods]]
+modId = "${mod_id}"
+version = "${mod_version}"
+displayName = "${mod_name}"
+authors = "IVomens + Create Team for original code"
+credits = "Schematic system design and original code by the Create team (MIT)."
+description = '''
+Atomicannon is a heavily modified port of the Create Schematicannon system with new implementations, created solely for the use in Minecraft 26.2 and compatibility with HBM's Nuclear Tech Mod: NEXT.
+'''
+
+[[dependencies.${mod_id}]]
+modId = "neoforge"
+type = "required"
+versionRange = "[26.2.0.7-beta,26.3)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.${mod_id}]]
+modId = "minecraft"
+type = "required"
+versionRange = "[26.2,26.3)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.${mod_id}]]
+modId = "hbm"
+type = "optional"
+versionRange = "*"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.${mod_id}]]
+modId = "warforge"
+type = "optional"
+versionRange = "*"
+ordering = "AFTER"
+side = "BOTH"

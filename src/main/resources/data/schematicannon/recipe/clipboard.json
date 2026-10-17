@@ -1,0 +1,1 @@
+{ "type": "minecraft:crafting_shapeless", "category": "misc", "ingredients": [ "#minecraft:planks", "minecraft:paper", "minecraft:iron_nugget" ], "result": { "id": "schematicannon:clipboard" } }

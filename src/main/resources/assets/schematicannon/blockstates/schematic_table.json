@@ -1,0 +1,1 @@
+{ "variants": { "facing=north": { "model": "schematicannon:block/schematic_table" }, "facing=east": { "model": "schematicannon:block/schematic_table", "y": 90 }, "facing=south": { "model": "schematicannon:block/schematic_table", "y": 180 }, "facing=west": { "model": "schematicannon:block/schematic_table", "y": 270 } } }

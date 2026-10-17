@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": { "particle": "schematicannon:block/schematicannon_casing", "casing": "schematicannon:block/schematicannon_casing", "plate": "schematicannon:block/schematicannon_casing_plate", "brass": "schematicannon:block/schematicannon_brass", "iron": "schematicannon:block/schematicannon_iron", "barrel": "schematicannon:block/schematicannon_barrel", "barrel_side": "schematicannon:block/schematicannon_barrel_side", "muzzle": "schematicannon:block/schematicannon_muzzle", "wood": "schematicannon:block/schematicannon_wood" },
+  "elements": [
+    { "from": [0, 0, 0], "to": [16, 3, 16], "faces": { "north": { "uv": [0, 13, 16, 16], "texture": "#wood" }, "south": { "uv": [0, 13, 16, 16], "texture": "#wood" }, "east": { "uv": [0, 13, 16, 16], "texture": "#wood" }, "west": { "uv": [0, 13, 16, 16], "texture": "#wood" }, "up": { "uv": [0, 0, 16, 16], "texture": "#casing" }, "down": { "uv": [0, 0, 16, 16], "texture": "#wood" } } },
+    { "from": [1, 3, 1], "to": [15, 9, 15], "faces": { "north": { "uv": [1, 7, 15, 13], "texture": "#plate" }, "south": { "uv": [1, 7, 15, 13], "texture": "#plate" }, "east": { "uv": [1, 7, 15, 13], "texture": "#plate" }, "west": { "uv": [1, 7, 15, 13], "texture": "#plate" }, "up": { "uv": [1, 1, 15, 15], "texture": "#casing" }, "down": { "uv": [1, 1, 15, 15], "texture": "#casing" } } },
+    { "from": [2, 9, 2], "to": [14, 10, 14], "faces": { "north": { "uv": [2, 6, 14, 7], "texture": "#brass" }, "south": { "uv": [2, 6, 14, 7], "texture": "#brass" }, "east": { "uv": [2, 6, 14, 7], "texture": "#brass" }, "west": { "uv": [2, 6, 14, 7], "texture": "#brass" }, "up": { "uv": [2, 2, 14, 14], "texture": "#brass" }, "down": { "uv": [2, 2, 14, 14], "texture": "#brass" } } }
+  ]
+}

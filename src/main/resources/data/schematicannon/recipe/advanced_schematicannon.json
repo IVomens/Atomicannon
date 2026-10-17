@@ -1,0 +1,14 @@
+{
+  "neoforge:conditions": [ { "type": "neoforge:mod_loaded", "modid": "hbm" } ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "P": "hbm:plate_steel",
+    "M": "hbm:motor",
+    "C": "hbm:coil_copper",
+    "S": "schematicannon:schematicannon",
+    "B": "hbm:circuit_basic"
+  },
+  "pattern": [ "PMP", "CSC", "PBP" ],
+  "result": { "id": "schematicannon:advanced_schematicannon" }
+}

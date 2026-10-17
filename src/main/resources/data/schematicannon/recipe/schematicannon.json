@@ -1,0 +1,1 @@
+{ "type": "minecraft:crafting_shaped", "category": "misc", "key": { "I": "minecraft:iron_ingot", "L": "#minecraft:logs", "D": "minecraft:dispenser", "S": "minecraft:smooth_stone" }, "pattern": [ " I ", "LDL", "SSS" ], "result": { "id": "schematicannon:schematicannon" } }
